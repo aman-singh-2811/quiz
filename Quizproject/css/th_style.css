@@ -1,0 +1,116 @@
+/* Body  */
+body {
+    font-family: 'Baloo Bhai', cursive;
+    width: 100%;
+    height: 100%;
+}
+/* Navigation Bar */
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: -16px;
+    top: -49px;
+}
+
+.left img {
+    width: 155px;
+    /* filter: invert(100%); */
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 60%;
+    margin: 0px auto;
+    /* border: 2px solid green; */
+}
+
+/* .right {
+    display: inline-block;
+    /* border: 2px solid red; */
+/*	position: absolute;
+    left: -16px;
+    top: -49px;
+}
+.right img {
+    width: 155px;
+    /* filter: invert(100%); */
+/*}
+
+.right div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+} */
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: #fe9a02;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(254, 135, 1)
+}
+
+/* background image Part */
+
+ .illustrator_img{
+    width: 60%;
+    padding: 10px 198px;
+    margin: 0px 17px;
+    height: 500px;
+} 
+.illustrator_img img{
+    width: 80%;
+    height: 120%;
+    padding: 1px 546px;
+    margin: 3px -44px;
+}
+
+/* Text part */
+
+.text{
+    color: #fe9a02;
+    padding: 175px 10px;
+    margin: -580px 76px;
+}
+
+/* Button Part */
+
+.btn1 {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 10px 17px;
+    background-color: white;
+    color: #fe9a02;
+    padding: 3px 14px;
+    border: 3px solid rgb(254, 135, 1);
+    border-radius: 42px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    color: white;
+    background-color: #fe9a02;
+} 

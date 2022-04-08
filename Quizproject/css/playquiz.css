@@ -1,0 +1,137 @@
+/* full body part */
+
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+  
+
+    /* height: 100px; */
+    /* background-color:#fff; */
+}
+
+/* Navigation Bar */
+
+/* .header{
+    background-color: rgb(254, 135, 1);
+}  */
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: -16px;
+    top: -49px;
+}
+
+.left img {
+    width: 155px;
+    /* filter: invert(100%); */
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 60%;
+    margin: 0px auto;
+    /* border: 2px solid green; */
+}
+
+/* .right {
+    display: inline-block;
+    /* border: 2px solid red; */
+/*	position: absolute;
+    left: -16px;
+    top: -49px;
+}
+.right img {
+    width: 155px;
+    /* filter: invert(100%); */
+/*}
+
+.right div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+} */
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: #fe9a02;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(254, 135, 1)
+}
+
+.bg img{
+    padding: 59px 860px;
+    height: 80%;
+}
+
+/* Container */
+
+.container {
+    border: 2px solid rgb(0, 0, 0);
+margin: -450px 80px;
+padding: -7px;
+width: 33%;
+border-radius: 28px;
+height: 40%;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: inline-block;
+    width: 270px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 15px 72px;
+    font-size: 15px;
+    border-radius: 17px;
+}
+
+
+.container h1 {
+    color: black;
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 34px 110px;
+    background-color: white;
+    color: #fe9a02;
+    padding: 3px 14px;
+    border: 3px solid rgb(254, 135, 1);
+    border-radius: 42px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #fe9a02;
+}
